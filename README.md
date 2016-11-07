@@ -12,9 +12,11 @@ stack-orientedness, *RPN* (Reverse Polish Notation) works naturally for writing 
 This module works in a python *pyramid* environment using traversal to decode a URL into a forth program.
 Whereas an actual forth program that multiplies two numbers and then squares them might look like this:
 
-..code-block: forth
+```forth
 
  12 27 * dup *
+
+```
 
 The equivalent foURLth "program" would look just like a URL: ``http://fourlth.com/12/27/*/dup/*``
 
@@ -47,15 +49,19 @@ engine that could access gene expression data (microarray or RNA seq) and metada
 web-based application.   The idea was to be able to, for example, do a search for genes by symbol, then find out
 which, if any, datasets had expression information for those genes.   Such a query might look like:
 
-..code-block:
+```http
 
  http://fourlth.net/Gata5/Myb/genesearch/ANY/datasetsearch/metadata
 
+```
+
 which might then return
 
-..code-block:
+```javascript
 
  { 'genes': ['Gata5', 'Muyb'], 'datasets': ['hiltonlab' { 'celltypes:' [...] }, ...] }
+
+```
 
 This JSON object could then be used by client-side logic to populate the web, dynamically.
 
