@@ -51,7 +51,7 @@ which, if any, datasets had expression information for those genes.   Such a que
 
  http://fourlth.net/Gata5/Myb/genesearch/ANY/datasetsearch/metadata
 
-which mightthen return
+which might then return
 
 ..code-block:
 
@@ -64,10 +64,6 @@ One could, theoretically, also incorporate an *R* interpreter via the *rpy2* mod
 that necessarily bloats the size of the server-side portion of the application.  Care should be taken 
 when doing this.
 
-
-Nick Seidenman <seidenman@wehi.edu.au>
-Molecular Medicine
-Walter and Eliza Hall Institute
-Parkville, VIC
-Australia
+ 
+Nick Seidenman <nick@seidenman.net>
 
