@@ -3,7 +3,7 @@ FoURLth
 
 *FoURLth* stands for *URLs in forth*.  Forth is an early, third-generation programming language 
 created by Charles Moore in the early 1970s on an IBM 1130.  He thought of it as more of a fourth-generation
-language and would have named it "fourth" but for the ract that file names on the 1130 could only be
+language and would have named it "fourth" but for the fact that file names on the 1130 could only be
 five characters long at the time.   Hence, *forth*.
 
 Forth makes heavy and more or less explicit use of a stack to maintain execution state.   Because of its
